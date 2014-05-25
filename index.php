@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 	require_once ("bc_daemon.php");
 	require_once ("bc_layout.php");
@@ -108,7 +108,7 @@
 	site_footer ();
 
 /******************************************************************************
-	This script is Copyright � 2013 Jake Paysnoe.
+	This script is Copyright ɠ2013 Jake Paysnoe.
 	I hereby release this script into the public domain.
 	Jake Paysnoe Jun 26, 2013
 ******************************************************************************/
