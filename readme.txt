@@ -7,7 +7,7 @@ MotocoinExplorer
 	
 Dependencies:
 	- web server with php & curl
-	- `motocoind` server (see http://motocoin.org & https://github.com/motocoin-dev/motocoin)
+	- `motocoind` server (see http://motocoin.org)
 	
 
 MotocoinExplorer installation:
