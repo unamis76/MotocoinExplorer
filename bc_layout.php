@@ -19,11 +19,8 @@
 		echo "\n";
 		
 		echo "			<h1><a href=\"".$_SERVER["PHP_SELF"]."\" title=\"Home Page\">\n";
-		echo "				Block Crawler\n";
-		echo "			</a></h1>\n";
-		echo "			<h3><a href=\"".$_SERVER["PHP_SELF"]."\" title=\"Home Page\">\n";
-		echo "				Block Chain Viewer\n";
-		echo "			</a></h3>\n";
+		echo "				Motocoin block explorer\n";
+		echo "			</a><sup><small>beta</small></sup></h1>\n";
 		echo "\n";
 		
 		echo "		</div>\n";
@@ -45,7 +42,7 @@
 		echo "	<div id=\"donor_box\">\n";
 		echo "\n";
 		
-		echo "		BlockCrawler Script Created By Jake Paysnoe - Donations: 1MoWrpf4DjLiL1ALtE6WAAPfHj1aZt38CE \n";
+		echo "		Motocoin block explorer (c) 2014\n";
 		
 		echo "	</div>\n";
 		echo "\n";
@@ -126,14 +123,7 @@
 		echo "		</div>\n";
 		echo "\n";
 		
-		echo "		<div class=\"blockdetail_detail\">\n";
-		echo "			<div class=\"blockdetail_header\">Block Nonce</div>\n";		
-		echo "			<div class=\"blockdetail_content\">\n";
-		echo "				".$raw_block["nonce"]."\n";
-		echo "			</div>\n";		
-		echo "		</div>\n";
-		echo "\n";
-		
+	
 		echo "		<div class=\"blockdetail_detail\">\n";
 		echo "			<div class=\"blockdetail_header\">Block Difficulty</div>\n";		
 		echo "			<div class=\"blockdetail_content\">\n";
@@ -334,7 +324,7 @@
 	}
 	
 /******************************************************************************
-	This script is Copyright © 2013 Jake Paysnoe.
+	This script is Copyright É 2013 Jake Paysnoe.
 	I hereby release this script into the public domain.
 	Jake Paysnoe Jun 26, 2013
 ******************************************************************************/
