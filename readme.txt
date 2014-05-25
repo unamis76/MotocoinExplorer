@@ -1,12 +1,18 @@
 MotocoinExplorer 
 
-	Block chain explorer for Motocoin cryptocurrency(http://motocoin.org).
+	Block chain explorer for Motocoin cryptocurrency(http://motocoin.org). 
 	Based on https://github.com/CallMeJake/BlockCrawler
+	Online demo: http://moto-explorer.fvds.ru
+	
+	
+Dependencies:
+	- web server with php & curl
+	- `motocoind` server (see http://motocoin.org & https://github.com/motocoin-dev/motocoin)
 	
 
 MotocoinExplorer installation:
 
-	1. Copy all files to your web server(must support php & curl) `public_html` directory. 
+	1. Copy all files to your web server `public_html` directory. 
 	2. Install & configure `motocoind` server
 	3. Open bc_daemon.php & change `motocoind` server's settings:
 	
