@@ -1,6 +1,7 @@
 MotocoinExplorer installation:
 
-	1. Copy all files to your web server `public_html` directory. Web server must support php & curl
+	1. Copy all files to your web server `public_html` directory. 
+		Web server must support php & curl
 	2. Install & configure `motocoind` server
 	3. Open bc_daemon.php & change `motocoind` server's settings:
 	
