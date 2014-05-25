@@ -1,12 +1,11 @@
 <?php
-
 /******************************************************************************
 	Wallet Configuration
 ******************************************************************************/
-	$GLOBALS["wallet_ip"] = "127.0.0.1";
-	$GLOBALS["wallet_port"] = "8332";
-	$GLOBALS["wallet_user"] = "usrename";
-	$GLOBALS["wallet_pass"] = "password";
+	$GLOBALS["wallet_ip"] = "localhost";
+	$GLOBALS["wallet_port"] = "13106";
+	$GLOBALS["wallet_user"] = "motocoinrpc";
+	$GLOBALS["wallet_pass"] = "Gpj2fiUFYRNkCbji7PsArBwi49MHBpMp8YW2tprYBeAf";
 	
 
 /******************************************************************************
