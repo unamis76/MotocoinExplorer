@@ -9,11 +9,8 @@ MotocoinExplorer installation:
 			$GLOBALS["wallet_user"] = "username";
 			$GLOBALS["wallet_pass"] = "password";	
 			
-		It is important to replace these values with the correct information for your daemon.
-		The daemon will worh with RPCSSL configured if your version of cURL supports it.
-		
 		Here are some sample entries for the value $GLOBALS["wallet_ip"]:
-
+		
 		"127.0.0.1" - This will communitcate with the daemon in clear text
 		"http://127.0.0.1" - This is also an unencrypted connection
 		"https://127.0.0.1" - This will connect to the wallet using SSL encryption.			
