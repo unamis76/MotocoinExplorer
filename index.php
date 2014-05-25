@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 	require_once ("bc_daemon.php");
 	require_once ("bc_layout.php");
