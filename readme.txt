@@ -17,9 +17,15 @@ MotocoinExplorer installation:
 		
 	4. Done! Go to `your.domain`/index.php
 
+
 MotocoinExplorer files:
 
 	index.php - The home page for the script.
 	block_crawler.css - The CSS Style Sheet for the script.
 	bc_layout.php - This file contains most of the php.html used to render the site.
 	bc_daemon.php - This file contains fucntions for interacting with the daemon.
+
+	
+License
+
+MotocoinExplorer is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
