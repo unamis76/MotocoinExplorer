@@ -4,9 +4,6 @@ MotocoinExplorer installation:
 	2. Install & configure `motocoind` server
 	3. Open bc_daemon.php & change `motocoind` server's settings:
 	
-		/******************************************************************************
-			Wallet Configuration
-		******************************************************************************/
 			$GLOBALS["wallet_ip"] = "127.0.0.1";
 			$GLOBALS["wallet_port"] = "8332";
 			$GLOBALS["wallet_user"] = "username";
@@ -21,7 +18,7 @@ MotocoinExplorer installation:
 		"http://127.0.0.1" - This is also an unencrypted connection
 		"https://127.0.0.1" - This will connect to the wallet using SSL encryption.			
 		
-	4. Done! Go to `your_domain`/index.php
+	4. Done! Go to `your.domain`/index.php
 
 MotocoinExplorer files:
 
