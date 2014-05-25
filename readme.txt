@@ -1,3 +1,9 @@
+MotocoinExplorer 
+
+	Block chain explorer for Motocoin cryptocurrency(http://motocoin.org).
+	Based on https://github.com/CallMeJake/BlockCrawler
+	
+
 MotocoinExplorer installation:
 
 	1. Copy all files to your web server(must support php & curl) `public_html` directory. 
