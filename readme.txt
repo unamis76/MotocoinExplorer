@@ -12,8 +12,8 @@ Dependencies:
 
 MotocoinExplorer installation:
 
-	1. Copy all files from `src` dir to your web server `public_html` dir 
-	2. Install & configure `motocoind` server
+	1. Copy all files from `src` dir to your web server `public_html` dir.
+	2. Install & configure `motocoind` server. You need to set the `txindex=1` configuration option to be able to look up historical transactions.
 	3. Open config/motodConfig.php & change `motocoind` server's settings:
 	
 			$GLOBALS["wallet_ip"] = "127.0.0.1";
