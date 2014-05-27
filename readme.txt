@@ -12,9 +12,9 @@ Dependencies:
 
 MotocoinExplorer installation:
 
-	1. Copy all files to your web server `public_html` directory. 
+	1. Copy all files from `src` dir to your web server `public_html` dir 
 	2. Install & configure `motocoind` server
-	3. Open bc_daemon.php & change `motocoind` server's settings:
+	3. Open config/motodConfig.php & change `motocoind` server's settings:
 	
 			$GLOBALS["wallet_ip"] = "127.0.0.1";
 			$GLOBALS["wallet_port"] = "8332";
@@ -32,11 +32,11 @@ MotocoinExplorer installation:
 
 MotocoinExplorer files:
 
-	index.php - The home page for the script.
-	block_crawler.css - The CSS Style Sheet for the script.
-	bc_layout.php - This file contains most of the php.html used to render the site.
-	bc_daemon.php - This file contains fucntions for interacting with the daemon.
-
+	src/classes/* - Files for working with motocoin network
+	src/config/*  - Configuration files
+	src/parts/*   - files which included(using include 'file';) in another pages
+	src/*         - public site's pages
+	src/index.php - the home page 
 	
 License
 
